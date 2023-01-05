@@ -19,3 +19,13 @@ window.addEventListener('resize', () => {
     footerImg.src = '../assets/images/icons/cck-logo.png';
   }
 });
+
+window.addEventListener('load', () => {
+  if (window.innerWidth > 768) {
+    const footerImg = document.querySelector('.ending .img__wrapper img');
+    footerImg.src = '../assets/images/icons/cck-logo-about.png';
+  } else {
+    const footerImg = document.querySelector('.ending .img__wrapper img');
+    footerImg.src = '../assets/images/icons/cck-logo.png';
+  }
+});
