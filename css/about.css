@@ -97,6 +97,18 @@ body {
   list-style: none;
 }
 
+.__nav--item a {
+  text-decoration: none;
+}
+
+.__nav--item a:hover {
+  color: var(--secondary);
+}
+
+.__nav--item a:active {
+  color: var(--secondary);
+}
+
 .hero-wrapper {
   background: url('../assets/images/mobile/about-hero.png');
   background-repeat: no-repeat;
@@ -146,6 +158,10 @@ body {
   font-weight: 700;
   text-decoration: underline;
   text-underline-offset: 0.3rem;
+}
+
+.chevron--right {
+  display: none;
 }
 
 .logo__section {
@@ -264,4 +280,193 @@ footer {
   flex: 1;
   font-size: 1rem;
   font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .top__menu {
+    display: block;
+    background-color: var(--grey-text);
+    padding: 0.3rem 10%;
+  }
+
+  .top__menu__list {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    gap: 30px;
+    height: inherit;
+    justify-content: end;
+    align-items: center;
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: var(--white);
+  }
+
+  .social--icons {
+    max-width: 0.6rem;
+  }
+
+  .header {
+    display: flex;
+    padding: 0.5rem 10%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu__button {
+    width: 1.5rem;
+    max-width: 1.5rem;
+    background-color: unset;
+    border: none;
+    flex: 1;
+    display: none;
+  }
+
+  .menu__button img {
+    max-width: 100%;
+  }
+
+  .logo__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80px;
+  }
+
+  .logo__image {
+    max-width: 100%;
+  }
+
+  .nav__wrapper {
+    position: static;
+    height: auto;
+    width: unset;
+    font-size: 0.6rem;
+    font-weight: 700;
+  }
+
+  .main__nav {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  }
+
+  .__nav--item a {
+    color: var(--grey-text);
+  }
+
+  .__nav--item:last-child a {
+    color: var(--secondary);
+    border: 3px solid var(--secondary);
+    padding: 0.3rem 0.6rem;
+    font-size: 0.6rem;
+  }
+
+  .hero-wrapper {
+    background: url('../assets/images/desktop/about-hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 5rem 0;
+  }
+
+  .hero > * {
+    width: 70%;
+    margin: auto;
+  }
+
+  .sale__paragraph {
+    margin: 1.5rem auto 1rem;
+  }
+
+  .contact__text {
+    width: 75%;
+  }
+
+  .email__text {
+    width: 75%;
+    position: relative;
+  }
+
+  .chevron--right {
+    display: inline;
+    font-size: 1.5rem;
+    vertical-align: bottom;
+  }
+
+  .logo__section {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--accent);
+  }
+
+  .logo__section--header {
+    width: 75%;
+    max-width: none;
+  }
+
+  .logo__text {
+    width: 75%;
+  }
+
+  .about__logo {
+    width: 45%;
+    max-width: 45%;
+  }
+
+  .expo__paragraph {
+    width: 80%;
+    margin: auto;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--grey-text);
+  }
+
+  .expo_img {
+    margin-right: 2rem;
+  }
+
+  footer {
+    margin: 1rem auto 0;
+    background-color: var(--white);
+    padding: 1rem 0 0;
+  }
+
+  .footer__header {
+    display: none;
+  }
+
+  .footer--hr {
+    display: none;
+  }
+
+  .partners__wrapper {
+    display: none;
+  }
+
+  .ending {
+    background-color: var(--white);
+    display: flex;
+    width: 100%;
+    padding: 2rem 10%;
+    gap: 2rem;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  .img__wrapper {
+    flex: 1;
+  }
+
+  .img__wrapper img {
+    max-width: 100%;
+  }
+
+  .rights {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 700;
+  }
 }
