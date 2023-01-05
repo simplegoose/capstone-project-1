@@ -444,13 +444,14 @@ footer {
   }
 
   .ending {
-    background-color: var(--white);
+    background-color: var(--primary);
     display: flex;
     width: 100%;
-    padding: 2rem 10%;
-    gap: 2rem;
+    padding: 2rem 15%;
+    gap: 5rem;
     margin: auto;
     justify-content: space-between;
+    color: var(--white);
   }
 
   .img__wrapper {
@@ -465,8 +466,9 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-    flex: 1;
+    flex: 3;
     font-size: 1rem;
     font-weight: 700;
+    text-align: start;
   }
 }
