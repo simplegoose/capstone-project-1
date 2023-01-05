@@ -299,6 +299,10 @@ body {
   gap: 12px;
 }
 
+.--featured.d-none {
+  display: none;
+}
+
 .--featured .left {
   flex-basis: 30%;
 }
@@ -558,6 +562,10 @@ footer {
 
   .--featured {
     width: 48%;
+  }
+
+  .--featured.d-none {
+    display: flex;
   }
 
   .featured__more {
