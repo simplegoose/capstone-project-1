@@ -536,21 +536,24 @@ footer {
   }
 
   .programs__wrapper {
+    flex-wrap: nowrap;
     justify-content: center;
   }
 
   .--program {
-    flex: 1 1 200px;
+    flex: 1 1 20%;
     max-width: 200px;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     gap: 8px;
     text-align: center;
+    font-size: 20%;
   }
 
   .--program img {
     flex: 3 3 30%;
+    min-height: 85px;
   }
 
   .program__name {
