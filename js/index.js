@@ -86,9 +86,9 @@ moreButton.addEventListener('click', () => {
 });
 
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 300) {
-        header.style.background = '#fff';
-    } else if (window.scrollY < 300) {
-        header.style = null;
-    }
+  if (window.scrollY > 300) {
+    header.style.background = '#fff';
+  } else if (window.scrollY < 300) {
+    header.style = null;
+  }
 });
