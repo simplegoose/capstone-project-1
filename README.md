@@ -89,7 +89,7 @@ Clone this repository to your desired folder:
 
 If you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine
 
-`git clone https://github.com/simplegoose/capstone-project-1.git>`
+`git clone https://github.com/simplegoose/capstone-project-1.git`
 
 ### Usage
 
