@@ -421,6 +421,7 @@ footer {
   flex: 1;
   font-size: 0.7rem;
   font-weight: 700;
+  color: var(--grey-text);
 }
 
 @media screen and (min-width: 768px) {
@@ -618,7 +619,7 @@ footer {
     align-items: center;
   }
 
-  .right {
+  .rights {
     font-size: 1rem;
     gap: unset;
   }
