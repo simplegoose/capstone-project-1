@@ -30,6 +30,11 @@
   font-weight: 900;
 }
 
+@font-face {
+  font-family: 'Cocogoose';
+  src: url(../assets/fonts/cocogoose/Cocogoose\ Pro-trial.ttf);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -62,6 +67,10 @@ body {
   display: flex;
   padding: 1rem 1.5rem;
   align-items: center;
+  position: fixed;
+  background: transparent;
+  width: 100%;
+  top: 0;
 }
 
 .menu__button {
@@ -161,9 +170,11 @@ body {
 }
 
 .website__title {
+  font-family: 'Cocogoose', sans-serif;
   width: 95%;
   margin: auto;
   color: var(--secondary);
+  font-weight: 900;
 }
 
 .sale__paragraph {
@@ -293,6 +304,9 @@ body {
 
 .--featured {
   width: 100%;
+}
+
+.--featured .featured__wrapper {
   display: flex;
   justify-content: start;
   font-weight: 700;
@@ -405,14 +419,14 @@ footer {
 
 .rights {
   flex: 1;
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: 700;
 }
 
 @media screen and (min-width: 768px) {
   .top__menu {
     display: block;
-    background-color: var(--grey-text);
+    background-color: #3e3e3e;
     padding: 0.3rem 10%;
   }
 
@@ -420,7 +434,7 @@ footer {
     display: flex;
     width: 100%;
     list-style: none;
-    gap: 30px;
+    gap: 20px;
     height: inherit;
     justify-content: end;
     align-items: center;
@@ -430,7 +444,7 @@ footer {
   }
 
   .social--icons {
-    max-width: 0.6rem;
+    max-height: 13px;
   }
 
   .header {
@@ -438,6 +452,7 @@ footer {
     padding: 0.5rem 10%;
     align-items: center;
     justify-content: space-between;
+    position: static;
   }
 
   .menu__button {
@@ -529,18 +544,20 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    gap: 8px;
+    text-align: center;
   }
 
   .--program img {
-    flex: unset;
+    flex: 3 3 30%;
   }
 
   .program__name {
-    flex: unset;
+    flex: 1 1 10%;
   }
 
   .program__desc {
-    flex: unset;
+    flex: 6 6 60%;
   }
 
   .sign__up {
@@ -599,5 +616,10 @@ footer {
   .ending {
     justify-content: space-between;
     align-items: center;
+  }
+
+  .right {
+    font-size: 1rem;
+    gap: unset;
   }
 }

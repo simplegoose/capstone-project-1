@@ -30,6 +30,11 @@
   font-weight: 900;
 }
 
+@font-face {
+  font-family: 'Cocogoose';
+  src: url(../assets/fonts/cocogoose/Cocogoose\ Pro-trial.ttf);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -151,6 +156,7 @@ body {
 }
 
 .website__title {
+  font-family: 'Cocogoose', sans-serif;
   width: 95%;
   margin: auto;
   color: var(--secondary);
@@ -303,14 +309,14 @@ footer {
 
 .rights {
   flex: 1;
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: 700;
 }
 
 @media screen and (min-width: 768px) {
   .top__menu {
     display: block;
-    background-color: var(--grey-text);
+    background-color: #3e3e3e;
     padding: 0.3rem 10%;
   }
 
@@ -318,7 +324,7 @@ footer {
     display: flex;
     width: 100%;
     list-style: none;
-    gap: 30px;
+    gap: 20px;
     height: inherit;
     justify-content: end;
     align-items: center;
@@ -328,7 +334,7 @@ footer {
   }
 
   .social--icons {
-    max-width: 0.6rem;
+    max-height: 13px;
   }
 
   .header {
@@ -501,9 +507,9 @@ footer {
   .rights {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
-    flex: 3;
+    gap: unset;
     font-size: 1rem;
+    flex: 3;
     font-weight: 700;
     text-align: start;
   }

@@ -1,4 +1,5 @@
 const menuButton = document.querySelector('.menu__button');
+const header = document.querySelector('header');
 const closeButton = document.querySelector('.close');
 const nav = document.querySelector('.nav__wrapper');
 
@@ -27,5 +28,13 @@ window.addEventListener('load', () => {
   } else {
     const footerImg = document.querySelector('.ending .img__wrapper img');
     footerImg.src = '../assets/images/icons/cck-logo.png';
+  }
+});
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) {
+      header.style.background = '#fff';
+  } else if (window.scrollY < 300) {
+      header.style = null;
   }
 });
