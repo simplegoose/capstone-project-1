@@ -63,9 +63,38 @@ Capstone project 1 is the first capstone I have done at Microverse so far.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+- [Live Demo Link]()
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- You should have git on your machine.
+
+- Follow the steps on the setup to clone the code.
+
+> If you don't have git installed on your machine you can download it from [here](https://git-scm.com/downloads).
+
+### Setup
+
+Clone this repository to your desired folder:
+
+If you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine
+
+`git clone https://github.com/simplegoose/capstone-project-1.git>`
+
+### Usage
+
+To run the project, execute the following command:
+Locate the folder where you cloned your project to and open the `index.html` file in your browser to view the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,3 +151,7 @@ I would like to thank [Cindy Shin](https://www.behance.net/adagio07) with her de
 This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## WalkThrough <a name="walkthrough"></a>
+
+[Here is a walkthrough](https://www.loom.com/share/838505d237a546f3b2f1d684b44fb3bb)
