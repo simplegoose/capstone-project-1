@@ -63,7 +63,7 @@ Capstone project 1 is the first capstone I have done at Microverse so far.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://simplegoose.github.io/capstone-project-1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
