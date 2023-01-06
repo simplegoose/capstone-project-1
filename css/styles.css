@@ -531,6 +531,7 @@ footer {
   }
 
   .programs {
+    min-width: 700px;
     width: 70%;
     margin: 3rem auto;
   }
@@ -554,6 +555,7 @@ footer {
   .--program img {
     flex: 3 3 30%;
     min-height: 85px;
+    max-height: 85px;
   }
 
   .program__name {
